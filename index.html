@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Угадай число</title>
+    <link rel="stylesheet" href="./styles/css/style.css">
+    <link rel="shortcut icon" href="./icons/favicon.ico" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="game">
+        <h1 class="game__title">Угадай число</h1>
+        <p class="game__description">Я загадал число от 1 до 100, ты должен угадать это число</p>
+        <div class="game__interaction">
+            <input class="game__player-guess" type="text">
+            <button type="submit" class="game__guess-btn">Угадать</button>
+        </div>
+        <p class="game__hint">–</p>
+        <button class="game__play-again-btn d-none">Начать сначала</button>
+        <p class="game__amount">Сыграно игр: 0</p>
+    </div>
+    <script src="./script.js"></script>
+</body>
+</html>
